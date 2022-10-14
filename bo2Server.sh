@@ -1,0 +1,1 @@
+docker run -d --name bo2 -v plutonium:/home/cod/pluto -v ~/codServer/bo2server/init.sh:/home/cod/init.sh -v ~/codServer/bo2server/serverfiles:/home/cod/server -p 4977:4976 -p 4977:4976/udp codserver

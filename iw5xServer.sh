@@ -1,0 +1,1 @@
+docker run -d --name iw5x -v plutonium:/home/cod/pluto -v ~/codServer/mw3server/init.sh:/home/cod/init.sh -v ~/codServer/mw3server/serverfiles:/home/cod/server -p 27019:27016 -p 27019:27016/udp codserver 
