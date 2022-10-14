@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM debian:stable-slim
 
 RUN dpkg --add-architecture i386 \
 	&& apt-get update \
