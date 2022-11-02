@@ -1,6 +1,6 @@
 WORKING_DIR=$(pwd)
 
-
+#just testing
 read -e -p "Please enter the name of the server without spaces? " -i "bo2" SERVER_NAME
 read -e -p "Please enter the key from plutonium? " SERVER_KEY
 read -e -p "Please enter the port for the server? " -i "4976" SERVER_PORT
